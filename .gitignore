@@ -1,4 +1,4 @@
-.ipynb
-.rtf
-.html
-.txt
+*.ipynb
+*.rtf
+*.html
+*.txt

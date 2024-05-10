@@ -1,12 +1,17 @@
-<div style="display:ruby;"><h2>SLIC helper 🧬</h2><h3 >v1.0</h3></div>
-A quick tool to help design SLIC experiments
+# SLIC helper 🧬
+A quick tool to help design SLIC experiments.
 
-<style>
-h2{
-font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-}
-h3{
-font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-font-size: 15px;
-}
-</style>
+## Usage
+
+1. Create input.md/input.txt/input.fasta/... by copy pasting your inserts in the order of assembly as follows:
+
+```python
+>Seq1					
+atatgattattacatttatcaaaagagttgatgaagttatacttggatgtagatttgtctgtgcggtaggaaaactactgctggaggcaaaaacctaactaccagatgacattcgtttgctcttttgtctctttgattgttctggccgtaatccaaactaatcccacgtcttgccattctcttgccctctattatgatcaaagataaagtgctggttataa
+>*Seq2	# "*" reverses your insert	
+atatgattattacatttatcaaaagagttgatgaagttatacttggatgtagatttgtctgtgcggtaggaaaactactgctggaggcaaaaacctaactaccagatgacattcgtttgctcttttgtctctttgattgttctggccgtaatccaaactaatcccacgtcttgccattctcttgccctctattatgatcaaagataaagtgctggttataa
+```
+2. run `SLIC.py`
+
+3. Check the results in `output.html`
+<img width="1509" alt="image" src="https://github.com/daggermaster3000/SLIC-helper/assets/82659911/74feeefd-0545-4d7a-9924-31f9285975c3">

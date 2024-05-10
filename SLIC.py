@@ -300,7 +300,7 @@ if __name__ == '__main__' :
             file.write(Title)
             file.write(html_df)
             for insert,data in inserts.items():
-                    file.write(f'<h2>{insert}</h2>')
+                    file.write(f'<h3>{insert}</h3>')
                     file.write(f'<p>{data["FW_sequence_woverhang"]}<br>{data["RV_sequence_woverhang"]}</p>')
                     #file.write(f'{data["RV_sequence_woverhang"]}')
             file.write(f'<h2>Final construct</h2>')

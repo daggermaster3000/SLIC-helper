@@ -278,7 +278,7 @@ Title="""
 """
 
 if __name__ == '__main__' :
-    inserts = read_seqs('/Users/quillan/Documents/Lab/Thesis/Random stuff/primerstuff/QF_Pkd2l1_Inpp5e.md')
+    inserts = read_seqs('/Users/quillan/Documents/Lab/Thesis/Random stuff/primerstuff/QF_Pkd2l1_Inpp5e.txt')
     outpath = "output"
     
     # find primers
